@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/height_row_rc_list"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/size_row_more"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_upload"
+        android:paddingTop="@dimen/pad_10dp"
+        android:paddingBottom="@dimen/pad_10dp"
+        android:paddingRight="@dimen/pad_5dp"/>
+
+    <ImageView
+        android:layout_width="@dimen/size_row_more"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_rename"
+        android:paddingTop="@dimen/pad_10dp"
+        android:paddingBottom="@dimen/pad_10dp"
+        android:paddingRight="@dimen/pad_5dp"/>
+    <ImageView
+        android:layout_width="@dimen/size_row_more"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_delete"
+        android:paddingTop="@dimen/pad_10dp"
+        android:paddingBottom="@dimen/pad_10dp"
+        android:paddingRight="@dimen/pad_5dp"/>
+    <ImageView
+        android:layout_width="@dimen/height_row_rc_list"
+        android:layout_height="match_parent"
+        android:src="@drawable/nav_close"
+        android:padding="@dimen/pad_15dp"
+        android:background="@color/colorRed"
+        android:tint="@color/colorWhite"/>
+
+
+</LinearLayout>

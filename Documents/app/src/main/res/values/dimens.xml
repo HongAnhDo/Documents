@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_toolbar">45dp</dimen>
+    <dimen name="text_size_large">26sp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="text_size_middle">18sp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_12dp">12dp</dimen>
+    <dimen name="height_row_middle">40dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="pad_2dp">2dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="height_tablayout">55dp</dimen>
+    <dimen name="height_row_rc_list">65dp</dimen>
+    <dimen name="size_row_more">40dp</dimen>
+    <dimen name="size_image_list_main">50dp</dimen>
+    <dimen name="pad_15dp">15dp</dimen>
+    <dimen name="size_item_gridview">120dp</dimen>
+    <dimen name="pad_8dp">8dp</dimen>
+    <dimen name="height_row_list_function">80dp</dimen>
+</resources>

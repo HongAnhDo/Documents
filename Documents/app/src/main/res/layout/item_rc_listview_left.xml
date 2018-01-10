@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_row_rc_list"
+
+    android:paddingRight="@dimen/pad_15dp"
+    android:paddingTop="@dimen/pad_10dp"
+    android:paddingBottom="@dimen/pad_10dp">
+    <ImageView
+        android:id="@+id/img_mark"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorRed"
+        android:visibility="gone"
+       />
+    <ImageView
+        android:id="@+id/img_chosen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@id/img_mark"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:src="@drawable/ic_chosen"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/img_folder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/img_chosen"
+        android:src="@drawable/list_folder_download_empty"
+        android:layout_marginLeft="@dimen/margin_10dp"/>
+
+    <ImageView
+        android:id="@+id/img_more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/pad_15dp"
+        android:paddingBottom="@dimen/pad_15dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_more"
+        android:layout_alignParentRight="true"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/img_folder"
+        android:layout_toLeftOf="@+id/img_more"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/pad_10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Music"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/text_size_middle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="0 items" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

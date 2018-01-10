@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Documents</string>
+    <string name="edit">Edit</string>
+    <string name="sync">SYNC</string>
+    <string name="Name">Name</string>
+    <string name="Size">Size</string>
+    <string name="Services">Services</string>
+    <string name="Documents">Documents</string>
+    <string name="Setting">Setting</string>
+</resources>

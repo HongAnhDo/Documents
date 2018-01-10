@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/size_item_gridview"
+    android:layout_height="@dimen/size_item_gridview"
+    android:background="@drawable/item_gridview_bg"
+    android:padding="@dimen/pad_10dp">
+
+    <ImageView
+        android:id="@+id/img_folder_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/pad_5dp"
+        android:src="@drawable/list_folder_download_empty"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/img_folder_grid">
+
+        <ImageView
+            android:id="@+id/ic_more_grid"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="@dimen/pad_10dp"
+            android:paddingTop="@dimen/pad_10dp"
+            android:src="@drawable/ic_more" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/ic_more_grid"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/pad_10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="Music"
+                android:gravity="bottom"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="153Kb"
+                android:gravity="top"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/dot_green"/>
+
+</RelativeLayout>
